@@ -1,2 +1,2 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 Applying Supervised Machine Learning
