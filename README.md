@@ -12,16 +12,40 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we will oversample the data using the RandomOverSampler and SMOTE algorithms, and later undersample the data using the ClusterCentroids algorithm. Then, we will use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, we will compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Finally, we will evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
 ### What We are Creating
-This new assignment consists of three technical analysis and a written report, as it follows:
-1: Use Resampling Models to Predict Credit Risk
-2: Use the SMOTEENN Algorithm to Predict Credit Risk
-3: Use Ensemble Classifiers to Predict Credit Risk
-4: A Written Report on the Credit Risk Analysis (README.md)
+
+ 1: Use Resampling Models to Predict Credit Risk
+ 2: Use the SMOTEENN Algorithm to Predict Credit Risk
+ 3: Use Ensemble Classifiers to Predict Credit Risk
+ 4: A Written Report on the Credit Risk Analysis 
+
+
+## Oerview
+
+In this analysis, we used a dataset with 96 different variables from loan applicants composed of 115675 costumers from which 68470 were low risk and 347 high risk applicants based on the type of data collected. 
+
 
 1: Use Resampling Models to Predict Credit Risk
-For all three algorithms, the following have been completed:
-An accuracy score for the model is calculated (7.5 pt)
-A confusion matrix has been generated (7.5 pt)
+
+We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated as 66%, Figure 1.
+
+### Figure 1: Accuracy score of the model
+
+---------------------------
+![1.1-accuracy_score.png]()
+
+---------------------------
+
+
+The confusion matrix was also generated for the priliminry sampling method as shown in Figure 2.
+
+
+### Figure 2: The confusion matrix
+
+---------------------------
+![1.1-accuracy_score.png]()
+
+---------------------------
+
 An imbalanced classification report has been generated (15 pt)
 
 
