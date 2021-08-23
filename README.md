@@ -57,11 +57,18 @@ The imbalanced classification report is shown n Figure 3.
 ---------------------------
 
 
-2: Use the SMOTEENN Algorithm to Predict Credit Risk
-The combinatorial SMOTEENN algorithm does the following:
-An accuracy score for the model is calculated (5 pt)
-A confusion matrix has been generated (5 pt)
-An imbalanced classification report has been generated (5 pt)
+### 2: Using the Synthetic Minority Over-sampling Technique (SMOTE)
+
+To balance the lop-sided dataset we could use the SMOTE oversamping of the minoriy group. The method generated an accuracy score of around 64%.The confusion matrix and the imbalenced reports are shown in Figure 4.
+
+
+### Figure 4: Imbalanced classification report
+
+---------------------------
+![1.4-SMOTE.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.4-SMOTE.png)
+
+---------------------------
+
 
 3: Use Ensemble Classifiers to Predict Credit Risk
 The BalancedRandomForestClassifier algorithm does the following:
