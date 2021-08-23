@@ -70,7 +70,12 @@ To balance the lop-sided dataset we could use the SMOTE oversamping of the minor
 
 ---------------------------
 
+### 3: Using Ensemble AdaBoost Classifier Method
 
+This method yielded a higher accuracy rate () than the other methods (
+
+
+![1-5-Ensemble-AdaBoost.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1-5-Ensemble-AdaBoost.png)
 
 
 ## Summary
