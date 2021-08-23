@@ -1,6 +1,10 @@
 # Credit Risk Analysis
 Applying Supervised Machine Learning to Credit Risk Analysis
 
+-------------------------
+![Credit-risk-analysis.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/Credit-risk-analysis.png)
+
+-------------------------
 
 ## Background
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we will need to employ different techniques to train and evaluate models with unbalanced classes. Therefore, we have been tasked to use imbalanced-learn and scikit-learn libraries to build and evaluate such models using resampling.
@@ -8,64 +12,78 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we will oversample the data using the RandomOverSampler and SMOTE algorithms, and later undersample the data using the ClusterCentroids algorithm. Then, we will use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, we will compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Finally, we will evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
 ### What We are Creating
-This new assignment consists of three technical analysis and a written report, as it follows:
-1: Use Resampling Models to Predict Credit Risk
-2: Use the SMOTEENN Algorithm to Predict Credit Risk
-3: Use Ensemble Classifiers to Predict Credit Risk
-4: A Written Report on the Credit Risk Analysis (README.md)
 
-1: Use Resampling Models to Predict Credit Risk
-For all three algorithms, the following have been completed:
-An accuracy score for the model is calculated (7.5 pt)
-A confusion matrix has been generated (7.5 pt)
-An imbalanced classification report has been generated (15 pt)
+   1: Use Resampling Models to Predict Credit Risk
+   2: Use the SMOTEENN Algorithm to Predict Credit Risk
+   3: Use Ensemble Classifiers to Predict Credit Risk
+   4: A Written Report on the Credit Risk Analysis 
 
 
-2: Use the SMOTEENN Algorithm to Predict Credit Risk
-The combinatorial SMOTEENN algorithm does the following:
-An accuracy score for the model is calculated (5 pt)
-A confusion matrix has been generated (5 pt)
-An imbalanced classification report has been generated (5 pt)
+## Oerview
 
-3: Use Ensemble Classifiers to Predict Credit Risk
-The BalancedRandomForestClassifier algorithm does the following:
-An accuracy score for the model is calculated (2.5 pt)
-A confusion matrix has been generated (2.5 pt)
-An imbalanced classification report has been generated (5 pt)
-The features are sorted in descending order by feature importance (5 pt)
-The EasyEnsembleClassifier algorithm does the following:
-An accuracy score of the model is calculated (2.5 pt)
-A confusion matrix has been generated (2.5 pt)
-An imbalanced classification report has been generated (5 pt)
+In this analysis, we used a dataset with 96 different variables from loan applicants composed of 115675 costumers from which 68470 were low risk and 347 high risk applicants based on the type of data collected. In this analysis we try to prepared the uballenced dataset to predict credit risk score for the aforesaid banking institution.
+
+## Results 
+
+1: Using Resampling Models to Predict Credit Risk
+
+We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated about 66%, Figure 1.
+
+### Figure 1: Accuracy score of the model
+
+---------------------------
+![1.1-accuracy_score.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.1-accuracy_score.png)
+
+---------------------------
 
 
-4: A Written Report on the Credit Risk Analysis (README.md)
-For this deliverable, you’ll write a brief summary and analysis of the performance of all the machine learning models used in this Challenge.
+The confusion matrix was also generated for the priliminry sampling method as shown in Figure 2.
 
-## Overview of the analysis: Explain the purpose of this analysis.
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+### Figure 2: The confusion matrix
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+---------------------------
+![1.2-confusion_matrix.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.2-confusion_matrix.png)
 
-The Requirements
-Structure, Organization, and Formatting (6 points)
+---------------------------
+
+The imbalanced classification report is shown n Figure 3.
+
+
+### Figure 3: Imbalanced classification report
+
+---------------------------
+![1.3-imbalanced_classification_report.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.3-imbalanced_classification_report.png)
+
+---------------------------
+
+
+### 2: Using the Synthetic Minority Over-sampling Technique (SMOTE)
+
+To balance the lop-sided dataset we could use the SMOTE oversamping of the minoriy group. The method generated an accuracy score of around 64%.The confusion matrix and the imbalenced reports are shown in Figure 4.
+
+
+### Figure 4: SMOTE confusion matrix and imbalanced classification report
+
+---------------------------
+![1.4-SMOTE.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.4-SMOTE.png)
+
+---------------------------
+
+### 3: Using Ensemble AdaBoost Classifier Method
+
+This method yielded a higher accuracy rate () than the other methods (93%) a nd generted a mor balanced variables of concern.
+
+
+![1-5-Ensemble-AdaBoost.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1-5-Ensemble-AdaBoost.png)
+
+
+## Summary
+
+Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not reliably overcome the hugely lop-sided dataset and most will detect the approved vs rjected costumers better. Although none of the models built based on this dataset are fit enough to generalize the model for future purposes as they may pose undue financial risks, but the Ensemble AdaBoost Classifier Method could be used for screening purposes due to its higher  accuracy rate.
+
+
  
 
-There is a title, and there are multiple sections (2 pt)
-Each section has a heading and subheading (2 pt)
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (24 points)
-The written analysis has the following:
 
-Overview of the loan prediction risk analysis:
-
-The purpose of this analysis is well defined (4 pt)
-Results:
-
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-Summary:
-
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
