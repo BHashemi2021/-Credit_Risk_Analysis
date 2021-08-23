@@ -1,6 +1,10 @@
 # Credit Risk Analysis
 Applying Supervised Machine Learning to Credit Risk Analysis
 
+-------------------------
+![Credit-risk-analysis.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/Credit-risk-analysis.png)
+
+-------------------------
 
 ## Background
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we will need to employ different techniques to train and evaluate models with unbalanced classes. Therefore, we have been tasked to use imbalanced-learn and scikit-learn libraries to build and evaluate such models using resampling.
