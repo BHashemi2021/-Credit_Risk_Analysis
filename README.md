@@ -24,7 +24,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 In this analysis, we used a dataset with 96 different variables from loan applicants composed of 115675 costumers from which 68470 were low risk and 347 high risk applicants based on the type of data collected. 
 
 
-1: Use Resampling Models to Predict Credit Risk
+1: Using Resampling Models to Predict Credit Risk
 
 We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated about 66%, Figure 1.
 
@@ -46,7 +46,15 @@ The confusion matrix was also generated for the priliminry sampling method as sh
 
 ---------------------------
 
-An imbalanced classification report has been generated (15 pt)
+The imbalanced classification report is sumarized as shown n Figure 3.
+
+
+### Figure 3: Imbalanced classification report
+
+---------------------------
+![1.3-imbalanced_classification_report.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.3-imbalanced_classification_report.png)
+
+---------------------------
 
 
 2: Use the SMOTEENN Algorithm to Predict Credit Risk
