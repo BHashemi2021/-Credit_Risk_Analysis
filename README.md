@@ -63,7 +63,7 @@ The imbalanced classification report is shown n Figure 3.
 To balance the lop-sided dataset we could use the SMOTE oversamping of the minoriy group. The method generated an accuracy score of around 64%.The confusion matrix and the imbalenced reports are shown in Figure 4.
 
 
-### Figure 4: Imbalanced classification report
+### Figure 4: SMOTE confusion matrix and imbalanced classification report
 
 ---------------------------
 ![1.4-SMOTE.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.4-SMOTE.png)
@@ -75,7 +75,7 @@ To balance the lop-sided dataset we could use the SMOTE oversamping of the minor
 
 ## Summary
 
-Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not generate a reliable model to overcome the hugely lop-sided dtaset and most will detect the approved vs rjected costumers better. Therefore none of the models seem fit enough to be used regarding this dataset or a model generalized based on it due to probable financial risks.
+Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not reliably overcome the hugely lop-sided dataset and most will detect the approved vs rjected costumers better. Therefore none of the models build based on this dataset are fit enough to generalize the model for future purposes as they may run undue financial risks.
 
 
  
