@@ -31,7 +31,7 @@ We used different resampling methods to predict the credit risk. Prilimianry the
 ### Figure 1: Accuracy score of the model
 
 ---------------------------
-![1.1-accuracy_score.png]()
+![1.1-accuracy_score.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.1-accuracy_score.png)
 
 ---------------------------
 
