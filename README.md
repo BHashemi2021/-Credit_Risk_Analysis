@@ -26,7 +26,7 @@ In this analysis, we used a dataset with 96 different variables from loan applic
 
 1: Use Resampling Models to Predict Credit Risk
 
-We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated as 66%, Figure 1.
+We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated about 66%, Figure 1.
 
 ### Figure 1: Accuracy score of the model
 
