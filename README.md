@@ -46,7 +46,7 @@ The confusion matrix was also generated for the priliminry sampling method as sh
 
 ---------------------------
 
-The imbalanced classification report is sumarized as shown n Figure 3.
+The imbalanced classification report is shown n Figure 3.
 
 
 ### Figure 3: Imbalanced classification report
