@@ -21,8 +21,9 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Oerview
 
-In this analysis, we used a dataset with 96 different variables from loan applicants composed of 115675 costumers from which 68470 were low risk and 347 high risk applicants based on the type of data collected. 
+In this analysis, we used a dataset with 96 different variables from loan applicants composed of 115675 costumers from which 68470 were low risk and 347 high risk applicants based on the type of data collected. In this analysis we try to prepared the uballenced dataset to predict credit risk score for the aforesaid banking institution.
 
+## Results 
 
 1: Using Resampling Models to Predict Credit Risk
 
@@ -70,45 +71,15 @@ To balance the lop-sided dataset we could use the SMOTE oversamping of the minor
 ---------------------------
 
 
-3: Use Ensemble Classifiers to Predict Credit Risk
-The BalancedRandomForestClassifier algorithm does the following:
-An accuracy score for the model is calculated (2.5 pt)
-A confusion matrix has been generated (2.5 pt)
-An imbalanced classification report has been generated (5 pt)
-The features are sorted in descending order by feature importance (5 pt)
-The EasyEnsembleClassifier algorithm does the following:
-An accuracy score of the model is calculated (2.5 pt)
-A confusion matrix has been generated (2.5 pt)
-An imbalanced classification report has been generated (5 pt)
 
 
-4: A Written Report on the Credit Risk Analysis (README.md)
-For this deliverable, you’ll write a brief summary and analysis of the performance of all the machine learning models used in this Challenge.
+## Summary
 
-## Overview of the analysis: Explain the purpose of this analysis.
+Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not generate a reliable model to overcome the hugely lop-sided dtaset and most will detect the approved vs rjected costumers better. Therefore none of the models seem fit enough to be used regarding this dataset or a model generalized based on it due to probable financial risks.
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-The Requirements
-Structure, Organization, and Formatting (6 points)
- 
 
-There is a title, and there are multiple sections (2 pt)
-Each section has a heading and subheading (2 pt)
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (24 points)
-The written analysis has the following:
 
-Overview of the loan prediction risk analysis:
-
-The purpose of this analysis is well defined (4 pt)
-Results:
-
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-Summary:
-
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 
