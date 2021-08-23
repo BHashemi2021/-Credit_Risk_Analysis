@@ -42,7 +42,7 @@ The confusion matrix was also generated for the priliminry sampling method as sh
 ### Figure 2: The confusion matrix
 
 ---------------------------
-![1.1-accuracy_score.png]()
+![1.2-confusion_matrix.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.2-confusion_matrix.png)
 
 ---------------------------
 
