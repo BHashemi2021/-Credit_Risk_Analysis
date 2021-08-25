@@ -25,11 +25,11 @@ In this analysis, we used a dataset with 96 different variables from loan applic
 
 ## Results 
 
-1: Using Resampling Models to Predict Credit Risk
+### 1: Using Resampling Models to Predict Credit Risk
 
 We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated about 66%, Figure 1.
 
-### Figure 1: Accuracy score of the model
+#### Figure 1: Accuracy score of the model
 
 ---------------------------
 ![1.1-accuracy_score.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.1-accuracy_score.png)
@@ -40,17 +40,17 @@ We used different resampling methods to predict the credit risk. Prilimianry the
 The confusion matrix was also generated for the priliminry sampling method as shown in Figure 2.
 
 
-### Figure 2: The confusion matrix
+#### Figure 2: The confusion matrix
 
 ---------------------------
 ![1.2-confusion_matrix.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.2-confusion_matrix.png)
 
 ---------------------------
 
-The imbalanced classification report is shown n Figure 3.
+The imbalanced classification report is shown in Figure 3.
 
 
-### Figure 3: Imbalanced classification report
+#### Figure 3: Imbalanced classification report
 
 ---------------------------
 ![1.3-imbalanced_classification_report.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.3-imbalanced_classification_report.png)
@@ -63,7 +63,7 @@ The imbalanced classification report is shown n Figure 3.
 To balance the lop-sided dataset we could use the SMOTE oversamping of the minoriy group. The method generated an accuracy score of around 64%.The confusion matrix and the imbalenced reports are shown in Figure 4.
 
 
-### Figure 4: SMOTE confusion matrix and imbalanced classification report
+#### Figure 4: SMOTE confusion matrix and imbalanced classification report
 
 ---------------------------
 ![1.4-SMOTE.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.4-SMOTE.png)
@@ -89,8 +89,7 @@ The blanced random forest clasification provided a different result compared the
 This method yielded a higher accuracy rate (93%) than the other methods and generted more balanced variables of concern (Figure 6).
 
 
-Figure 6: Ensemble AdaBoost Classifier Method
-
+#### Figure 6: Ensemble AdaBoost Classifier Method
 
 -------------------------------
 ![c-AdaBoost.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/c-AdaBoost.png)
@@ -103,7 +102,7 @@ Figure 6: Ensemble AdaBoost Classifier Method
 Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not reliably overcome the hugely lop-sided dataset and most will detect the approved applications better than the rejected ones. Although none of the models built based on this particular dataset are fit enough to generalize the model for future purposes as they may pose undue financial risks, but the Ensemble AdaBoost Classifier Method could be used for screening purposes due to its higher accuracy rate.
 
 
- #### Resources
+ ### Resources
 
        1- Microsoft CSV files
        2- Google Colab
