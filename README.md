@@ -98,7 +98,7 @@ This method yielded a higher accuracy rate (93%) than the other methods and gene
 
 ### Summary of the Results
 
-The following accuracy rates were calculated for the dataset by the sampling methods used:
+The following accuracy rates were calculated for the dataset using different sampling methods:
 
 #### Oversampling
  
