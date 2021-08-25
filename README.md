@@ -109,7 +109,7 @@ Having applied different sampling and machine learning models, including SMOTE-E
        2- Google Colab
        3- Jupyter Notebook (Anaconda3)
        4- Python 3.9 (64-bit)
-       5- VS Code Editor
+       5- VS Code Editor (64-1.58.2)
 
 
 
