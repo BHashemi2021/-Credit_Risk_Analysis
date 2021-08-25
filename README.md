@@ -100,10 +100,10 @@ This method yielded a higher accuracy rate (93%) than the other methods and gene
 
 The following accuracy rates were calculated for the dataset by the sampling methods used:
 
-#### OVERSAMPLING
+#### Oversampling
  
       Naive Random Oversampling
-            Calculated the balanced accuracy score
+            The balanced accuracy score
             0.6579148297196418
 
       SMOTE Oversampling
@@ -113,7 +113,7 @@ The following accuracy rates were calculated for the dataset by the sampling met
 #### Undrsampling
 
       Combination (Over and Under) Sampling
-            The balanced_accuracy_score
+            The balanced accuracy score
             0.5442942534431179
 
       Balanced Random Forest Classifier
@@ -121,7 +121,7 @@ The following accuracy rates were calculated for the dataset by the sampling met
             0.7852039705841491
 
       Easy Ensemble AdaBoost Classifier
-            Calculated the balanced accuracy score
+            The balanced accuracy score
             0.9325955251044282
             
 
