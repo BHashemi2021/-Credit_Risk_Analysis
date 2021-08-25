@@ -127,7 +127,7 @@ The following accuracy rates were calculated for the dataset using different sam
 
 ## Summary
 
-Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not reliably overcome the hugely lop-sided dataset and most will detect the approved applications better than the rejected ones. Although none of the models built based on this particular dataset are fit enough to generalize for future purposes as they may pose undue financial risks, but the Ensemble AdaBoost Classifier Method could be used for screening purposes due to its higher accuracy rate.
+Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not reliably overcome the hugely lop-sided dataset and most will detect the approved applications better than the rejected ones. Although none of the models built based on this particular dataset are fit enough to generalize for future purposes or decision-making, as they may pose undue financial risks, but the Ensemble AdaBoost Classifier Method could be used for screening purposes due to its higher accuracy rate.
 
 
  ### Resources
