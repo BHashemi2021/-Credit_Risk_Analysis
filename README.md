@@ -102,30 +102,28 @@ The following accuracy rates were calculated for the dataset by the sampling met
 
 #### OVERSAMPLING
  
-      ##### Naive Random Oversampling
-      Calculated the balanced accuracy score
-      0.6579148297196418
+      Naive Random Oversampling
+            Calculated the balanced accuracy score
+            0.6579148297196418
 
-      ##### SMOTE Oversampling
-      The balanced accuracy score
-      0.643577091572581
+      SMOTE Oversampling
+            The balanced accuracy score
+            0.643577091572581
 
 #### Undrsampling
 
-      ##### Combination (Over and Under) Sampling
-      Te balanced_accuracy_score
-      0.5442942534431179
+      Combination (Over and Under) Sampling
+            The balanced_accuracy_score
+            0.5442942534431179
 
-      #### Balanced Random Forest Classifier
-      The balanced accuracy score
-      0.7852039705841491
+      Balanced Random Forest Classifier
+            The balanced accuracy score
+            0.7852039705841491
 
-      #### Easy Ensemble AdaBoost Classifier
-      Calculated the balanced accuracy score
-      0.9325955251044282
-
-
-
+      Easy Ensemble AdaBoost Classifier
+            Calculated the balanced accuracy score
+            0.9325955251044282
+            
 
 ## Summary
 
