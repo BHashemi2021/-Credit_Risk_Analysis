@@ -86,7 +86,7 @@ The blanced random forest clasification provided a different result compared the
 
 ### 4: Using Ensemble AdaBoost Classifier Method
 
-This method yielded a higher accuracy rate () than the other methods (93%) and generted more balanced variables of concern (Figure 6).
+This method yielded a higher accuracy rate (93%) than the other methods and generted more balanced variables of concern (Figure 6).
 
 
 Figure 6: Ensemble AdaBoost Classifier Method
