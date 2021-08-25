@@ -79,7 +79,7 @@ The blanced random forest clasification provided a different result compared the
 
 
 ---------------------------
-![b1-Balanced_Random_Forest_Classifier.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/b1-Balanced_Random_Forest_Classifier.png)
+![b-Balanced_Random_Forest_Classifier.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/b-Balanced_Random_Forest_Classifier.png)
 
 ---------------------------
 
