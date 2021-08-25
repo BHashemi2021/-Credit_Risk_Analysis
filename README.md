@@ -70,12 +70,32 @@ To balance the lop-sided dataset we could use the SMOTE oversamping of the minor
 
 ---------------------------
 
+### Balanced Random Forest Clasification
+
+The blanced random forest clasification provided a different result compared the the imbalenced classifier report (Figure 5).
+
+
+#### Figure 5: Balanced Random Forest Clasification
+
+
+---------------------------
+![b1-Balanced_Random_Forest_Classifier.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/b1-Balanced_Random_Forest_Classifier.png)
+
+---------------------------
+
+
 ### 3: Using Ensemble AdaBoost Classifier Method
 
-This method yielded a higher accuracy rate () than the other methods (93%) and generted more balanced variables of concern.
+This method yielded a higher accuracy rate () than the other methods (93%) and generted more balanced variables of concern (Figure 6).
 
 
+Figure 6: Ensemble AdaBoost Classifier Method
+
+
+-------------------------------
 ![c-AdaBoost.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/c-AdaBoost.png)
+
+------------------------------------
 
 
 ## Summary
