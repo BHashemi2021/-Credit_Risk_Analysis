@@ -103,7 +103,14 @@ Figure 6: Ensemble AdaBoost Classifier Method
 Having applied different sampling and machine learning models, including SMOTE-ENN Method that combines the SMOTE ability to generate synthetic examples for minority class and ENN ability to delete some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class, it seems the models still could not reliably overcome the hugely lop-sided dataset and most will detect the approved applications better than the rejected ones. Although none of the models built based on this dataset are fit enough to generalize the model for future purposes as they may pose undue financial risks, but the Ensemble AdaBoost Classifier Method could be used for screening purposes due to its higher  accuracy rate.
 
 
- 
+ #### Resources
+
+       1- Microsoft CSV files
+       2- Google Colab
+       3- Jupyter Notebook (Anaconda3)
+       4- Python 3.9 (64-bit)
+       5- VS Code Editor
+
 
 
 
