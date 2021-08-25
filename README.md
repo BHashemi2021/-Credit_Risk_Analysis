@@ -75,7 +75,7 @@ To balance the lop-sided dataset we could use the SMOTE oversamping of the minor
 This method yielded a higher accuracy rate () than the other methods (93%) and generted more balanced variables of concern.
 
 
-![1-5-Ensemble-AdaBoost.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1-5-Ensemble-AdaBoost.png)
+![c-AdaBoost.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/c-AdaBoost.png)
 
 
 ## Summary
