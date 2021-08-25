@@ -34,7 +34,7 @@ We used different resampling methods to predict the credit risk. Prilimianry the
 ---------------------------
 ![1.1-accuracy_score.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.1-accuracy_score.png)
 
----------------------------
+----------------------------
 
 
 The confusion matrix was also generated for the priliminry sampling method as shown in Figure 2.
