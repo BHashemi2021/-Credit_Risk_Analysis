@@ -74,12 +74,12 @@ The imbalanced classification report is shown in Figure 3.
 ---------------------------
 
 
-### 2: Using the Synthetic Minority Over-sampling Technique (SMOTE)
+### 2: Using the Synthetic Minority Over-sampling Technique (SMOTE) ENN method: SMOTE-ENN
 
-To balance the lop-sided dataset we could use the SMOTE oversamping of the minoriy group. The method generated an accuracy score of around 64%.The confusion matrix and the imbalenced reports are shown in Figure 4.
+To balance the lop-sided dataset we used the SMOTE oversamping of the minoriy group and combined it with Edited Nearest Neighbor (ENN) method. The SMOTE enables us to generate synthetic examples for the minority class and ENN deletes some observations from both classes identified as having different class between the observation’s class and its K-nearest neighbor majority class. The overall method generated an accuracy score of around 64%.The confusion matrix and the imbalenced reports are shown in Figure 4.
 
 
-#### Figure 4: SMOTE confusion matrix and imbalanced classification report
+#### Figure 4: SMOTE-ENN confusion matrix and imbalanced classification report
 
 ---------------------------
 ![1.4-SMOTE.png](https://github.com/BHashemi2021/Credit_Risk_Analysis/blob/main/Resources/Images/1.4-SMOTE.png)
