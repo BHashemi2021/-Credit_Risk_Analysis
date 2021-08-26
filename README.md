@@ -29,6 +29,22 @@ In this analysis, we used a dataset with 96 different variables from loan applic
 
 We used different resampling methods to predict the credit risk. Prilimianry the accuracy score for the model was calculated about 66%, Figure 1.
 
+
+The followinf codes were used to generate  the confusion matrix and transform it to tabular format:
+
+
+```ruby
+
+# Displaying the confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+
+# Creating a DataFrame from the confusion matrix.
+cm_DF = pd.DataFrame(
+    cm, index=["Actual high_risk", "Actual low_risk"], columns=["Predicted high_risk", "Predicted low_risk"])
+cm_DF
+
+```
+
 #### Figure 1: Accuracy score of the model
 
 ---------------------------
