@@ -53,7 +53,7 @@ cm_DF
 ----------------------------
 
 
-The confusion matrix was also generated for the priliminry sampling method as shown in Figure 2.
+The confusion matrix generated for the priliminry sampling method (Figure 2).
 
 
 #### Figure 2: The confusion matrix
